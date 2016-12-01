@@ -1,0 +1,42 @@
+
+.banners{
+	position:relative;	
+	height:322px;
+}
+.banners .banner-img .imgs{
+	position:absolute;
+	top:0;
+	width:100%;
+	display:none;
+}
+.banners .arrow-left{
+	position:absolute;
+	left:35px;
+	top:120px;
+	background:url(../img/comm_bg_sprite.png) no-repeat -73px -52px;
+	width:58px;
+	height:58px;
+}
+.banners .arrow-right{
+	position:absolute;
+	right:35px;
+	top:120px;
+	background:url(../img/comm_bg_sprite.png) no-repeat -131px -52px;
+	width:58px;
+	height:58px;
+}
+.banners .circle{
+	position:absolute;
+	top:290px;
+	right:130px;
+}
+.banners .circle .circle-item{
+	background:url(../img/comm_bg_sprite.png) no-repeat -127px -240px;
+	width:15px;
+	height:15px;
+	float:left;
+	margin-right:5px;
+}
+.banners .circle .circle-item.bac{
+	background-position:-148px -240px
+}

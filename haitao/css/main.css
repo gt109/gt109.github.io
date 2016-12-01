@@ -1,0 +1,79 @@
+.mains{
+	
+}
+.mains .mainTop .main-top{
+	width:1000px;
+	margin:0 auto;
+}
+.mains .mainTop .main-top .maint-item{
+	float:left;
+	width: 210px;
+    padding: 20px;
+    height: 50px;
+}
+.mains .mainTop .main-top .maint-item:hover i,
+.mains .mainTop .main-top .maint-item:hover p{
+	color:#E10482;
+}
+.mains .mainTop .main-top .maint-item .icona{
+	float:left;
+	margin-right:10px;
+}
+.mains .mainTop .main-top .maint-item i{
+	font-size: 18px;
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-top: 12px;
+}
+.mains .mainTop .main-top .maint-item p{
+	font-size:10px;
+    color: #555;
+    -line-height: 14px;
+}
+
+.mains .mainCon{
+	background:url(../img/C8C2.tmp.png);
+	min-height:1000px;
+}
+.mains .mainCon .mainCon-chosen{
+	padding-top:29px;
+}
+.mains .mainCon .mainCon-chosen .mainCon-cho-title{
+	text-align: center;
+	margin-bottom:30px;
+}
+.mains .mainCon .mainCon-chosen .mainCon-cho-content{
+	position:relative;
+	height:520px;
+	background:#fff;
+}
+.mains .mainCon .mainCon-chosen .mainCon-cho-content .main-chosen-l{
+	position:absolute;
+	-z-index: 3;
+	left:-15px;
+}
+.mains .mainCon .mainCon-chosen .mainCon-cho-content .main-chosen-r{
+	position:absolute;
+	top:-2px;
+	left:317px;
+}
+.mains .mainCon .mainCon-chosen .mainCon-cho-content .main-chosen-r .main-cho-item{
+	border:1px solid #f9f9f9;
+	border-left:0;
+	border-bottom:0;
+}
+.mains .mainCon .mainCon-big{
+	padding-top:29px;
+}
+.mains .mainCon .mainCon-big .mainCon-big-title{
+	text-align: center;
+	margin-bottom:30px;
+}
+.mains .mainCon .mainCon-big .mainCon-big-content{
+	height:440px;
+	background:#fff;
+	border-radius: 5px;
+}
+.mains .mainCon .mainCon-big .mainCon-big-content .

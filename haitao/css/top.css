@@ -1,0 +1,126 @@
+.margin{
+	height:100%;
+	width:1190px;
+	margin:0 auto;
+}
+.top{
+	height:21px;
+	background:#F4F4F4;
+	padding:3px 0;
+}
+.top .top-left{
+
+}
+.top .top-left a{
+	padding:0 6px;
+	color: #666;
+	font-size:12px;
+	display: inline-block;
+}
+
+.top .top-left a .iconfont{
+	position: relative;
+	display: inline-block;
+	height:18px;
+	width:20px;
+	background:url(../img/comm_bg_sprite.png) no-repeat -173px 0;
+	top:2px;
+}
+.top .top-left a:hover{
+	color:#E10482;
+}
+.top .top-right a{
+	padding:0 6px;
+	color: #666;
+	font-size:12px;
+	display: inline-block;
+}
+.top .top-right span{
+	background:#666;
+	display: inline-block;
+	width:1px;
+	height:12px;
+}
+.top .top-right a:hover{
+	color:#E10482;
+}
+
+.header{
+	padding:15px 0;
+}
+.header .logo{
+	margin-bottom: 9px;
+}
+.header .sloga{
+	margin-top:20px;
+}
+.header .hd-right{
+	
+}
+.header .hd-right .hd-search{
+	position:relative;
+	width:538px;
+	height:34px;
+	border:2px solid #E10482;
+	margin-top:20px;
+}
+.header .hd-right .hd-search .hd-input,
+.header .hd-right .hd-search .hd-click{
+	font-size:14px;
+	border:0;
+	outline: none;
+	font-family:"微软雅黑";
+}
+.header .hd-right .hd-search .hd-input{
+	display: inline-block;
+	width:415px;
+	line-height:34px;
+	background:url(../img/BCF9.tmp.png) no-repeat 0 center;
+	padding-left:25px;
+	color:#ccc;
+}
+.header .hd-right .hd-search .hd-click{
+	width:98px;
+	height:34px;
+	background:#E10482;
+	color:#fff;
+	float:right;
+}
+.header .hd-right .cart-bar{
+	width:120px;
+	height:44px;
+}
+.header .hd-right .hd-search .hd-search-con{
+	position:absolute;
+	z-index: 3;
+	left:-1px;
+	background: #fff;
+	width:420px;
+	border:1px solid #ccc;
+	font-family:"微软雅黑";
+	font-size:12px;
+	color: #595959;
+	padding:0 10px;
+	display: none;
+}
+.header .hd-right .hd-search .hd-search-con.block{
+	display:block;
+}
+
+.header .hd-right .hd-search .hd-search-con .h-cookie-list .item-search{
+	line-height:24px;
+	
+}
+.header .hd-right .hd-search .hd-search-con p{
+	line-height: 20px;
+	width:100%;
+}
+.header .hd-right .hd-search .hidBox .h-Keywords{
+	font-family:"微软雅黑";
+	font-size:12px;
+	color:#979797;
+}
+.header .hd-right .hd-search .hidBox .h-Keywords span:hover{
+	color: #E10482;
+}
+

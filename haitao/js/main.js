@@ -1,0 +1,20 @@
+$(function(){
+	$('.main-chosen-l').hover(function(){
+		$(this).stop(true).animate({
+			top:-10
+		},200)
+	},function(){
+		$(this).stop(true).animate({
+			top:0
+		},200)})
+
+	$('.main-cho-item').hover(function(){
+		$(this).stop(true).animate({
+			marginTop:-10
+		},200)
+	},function(){
+		$(this).stop(true).animate({
+			marginTop:0
+		},200)
+	})
+})
