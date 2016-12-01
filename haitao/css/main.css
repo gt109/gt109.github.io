@@ -66,14 +66,217 @@
 }
 .mains .mainCon .mainCon-big{
 	padding-top:29px;
+	margin-bottom:30px;
 }
 .mains .mainCon .mainCon-big .mainCon-big-title{
 	text-align: center;
 	margin-bottom:30px;
 }
 .mains .mainCon .mainCon-big .mainCon-big-content{
-	height:440px;
 	background:#fff;
 	border-radius: 5px;
+	padding: 15px 5px 5px 15px;
 }
-.mains .mainCon .mainCon-big .mainCon-big-content .
+.mains .mainCon .mainCon-big .mainCon-big-content .main-big-l{
+	margin-right:10px;
+	border-radius: 5px;
+	overflow: hidden;
+	
+}
+.mains .mainCon .mainCon-big .mainCon-big-content .main-big-r .main-big-item{
+	margin-right:10px;
+	margin-bottom:10px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.mains .mainCon .mainCon-global .mainCon-global-l{
+	width:800px;
+}
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-title{
+	height: 50px;
+    border-bottom: 2px solid #fff;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: left;
+} 
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-title a{
+	font-size: 14px;
+	float:right;
+	color:#fff;
+	margin-top:20px;
+}
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-title a:hover{
+	text-decoration: underline;
+}
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-content .mainglob-item{
+	width:800px;
+	height:260px;
+	margin-top:18px;
+	background: #fff;
+	border-radius:4px;
+}
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-content .mainglob-item .mainglob-item-l{
+	-position:relative;
+	height:260px;
+	overflow: hidden;
+	width:418px;
+	text-align: center;
+	margin-right:15px;
+}
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-content .mainglob-item .mainglob-item-l img.change{
+	-position:absolute;
+	height:260px;
+}
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-content .mainglob-item .mainglob-item-r{
+	padding: 11px 14px;
+}
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-content .mainglob-item .mainglob-item-r .mainglob-item-title .mainglob-flag{
+	height: 32px;
+    width: 32px;
+    margin-right: 3px;
+    border: 1px solid #f2f2f2;
+    border-radius: 16px;
+    background-clip: padding-box;
+}
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-content .mainglob-item .mainglob-item-r .mainglob-item-title .mainglob-ti{
+   vertical-align: center;
+   font-size:12px;	
+   width:195px;
+   line-height:32px;
+   display: inline-block;
+} 
+
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-content .mainglob-item .mainglob-item-r .mainglob-item-title .mainglob-time{
+   vertical-align: center;
+   font-size:12px;
+   color:#A0A0A0; 	
+} 
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-content .mainglob-item .mainglob-item-r .mainglob-tit{
+	font-size: 14px;
+    line-height: 24px;
+    margin: 15px 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 25em;
+    font-weight: normal;
+}
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-content .mainglob-item .mainglob-item-r .mainglob-tit:hover a{
+	text-decoration: underline;
+}
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-content .mainglob-item .mainglob-item-r .mainglob-desc{
+	height: 100px;
+    color: #666;
+    font-size: 12px;
+    line-height: 19px;  
+} 
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-content .mainglob-item .mainglob-item-r .mainglob-b{
+	margin-top:20px;
+}
+
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-content .mainglob-item .mainglob-item-r .mainglob-b .mainglob-price{
+	color:#E10482;
+	font-size:12px;
+}
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-content .mainglob-item .mainglob-item-r .mainglob-b .mainglob-num{
+	font-size:200%;
+	display:inline-block;
+}
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-content .mainglob-item .mainglob-item-r .mainglob-b .mainglob-price2{
+	color:#999;
+	text-decoration: line-through;
+	display: inline-block;
+	margin-left:3px;
+	
+}
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-content .mainglob-item .mainglob-item-r .mainglob-b .mainglob-btn{
+	display: inline-block;
+	width:;
+	line-height:32px;
+	background:#000;
+	border-radius:16px ;
+	text-align: center;
+	color:#fff;
+	padding:0 2em;
+	float:right;
+	font-size:14px;	
+}
+.mains .mainCon .mainCon-global .mainCon-global-l .mainglob-content .mainglob-item .mainglob-item-r .mainglob-b .mainglob-btn:hover{
+	background: #E10482;
+}
+
+
+.mains .mainCon .mainCon-global .mainCon-global-r{
+	width:368px;
+	height:625px;
+	background:#fff;
+	border-radius: 4px;
+} 
+.mains .mainCon .mainCon-global .mainCon-global-r .mainglob-r-t .mainglob-r-ttitle{
+	position:relative;
+}
+.special{
+	height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    margin: 0 13px 35px; 
+}
+.mains .mainCon .mainCon-global .mainCon-global-r .mainglob-r-t .mainglob-r-ttitle .mainglob-r-tspace{
+	font-size:18px;
+	padding: 0 1em;
+    position: absolute;
+    top: 25px;
+    left:117px;
+    background: #fff;
+    width:102px;
+    line-height:50px;
+    text-align: center;
+}
+.mains .mainCon .mainCon-global .mainCon-global-r .mainglob-r-t .mainglob-r-tcon a.mainglob-r-timg{
+	position:relative;
+	float:left;	
+}
+
+.mains .mainCon .mainCon-global .mainCon-global-r .mainglob-r-b .mainglob-r-btitle{
+	position:relative;
+}
+.mains .mainCon .mainCon-global .mainCon-global-r .mainglob-r-b .mainglob-r-btitle .mainglob-r-bspace{
+	font-size:18px;
+	padding: 0 1em;
+    position: absolute;
+    top: 25px;
+    left:117px;
+    background: #fff;
+    width:102px;
+    line-height:50px;
+    text-align: center;
+}
+.mains .mainCon .mainCon-global .mainCon-global-r .mainglob-r-b .mainglob-r-bcon .mainglob-r-bimg{
+	display:block;
+	margin:0 10px 13px;
+	border-radius:4px;
+	overflow: hidden;
+}
+.border1{
+	box-shadow: 0 0 10px #ccc;
+	border:1px solid #CCC;
+}
+.span{
+	position:absolute;
+	width:120px;
+	display:block;
+	line-height:25px;
+	bottom:0;
+	left:0;
+	background:#7F7F7F;
+	text-align:center;
+	color:#fff;
+	font-size:12px;
+	
+}
+.border2{
+	box-shadow: 0 0 10px #999;
+}
+
