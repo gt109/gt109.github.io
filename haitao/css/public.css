@@ -61,3 +61,15 @@ input,textarea{
 .pl_2{
 	position:relative;top:-2px;
 }
+
+.margin{
+	height:100%;
+	width:1190px;
+	margin:0 auto;
+}
+
+.margin2{
+	height:100%;
+	width:990px;
+	margin:0 auto;
+}

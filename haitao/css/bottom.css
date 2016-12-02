@@ -1,0 +1,37 @@
+.bottoms{
+	height:205px;
+}
+.bottoms .help{
+	padding:30px 0;
+}
+.bottoms .help dl{
+	float:left;
+	padding: 0 20px 0 60px;
+	width:90px;
+	margin:0;
+}
+ .bottoms .help dl.last{
+ 	width: 110px;
+    text-align: center;
+    padding-left: 100px;
+ }   
+.bottoms .help dl dt{
+	color: #999;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.bottoms .help dl dd{
+	margin:0;
+}
+.bottoms .help dl dd a{
+	display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    color: #000;
+    font-size: 12px;
+}
+.bottoms .help dl dd a:hover{
+	color:#E10482;
+	text-decoration: underline;
+}

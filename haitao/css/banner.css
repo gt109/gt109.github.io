@@ -1,13 +1,14 @@
 
 .banners{
 	position:relative;	
-	height:322px;
+	height:300px;
 }
 .banners .banner-img .imgs{
 	position:absolute;
 	top:0;
 	width:100%;
 	display:none;
+	height:300px;
 }
 .banners .arrow-left{
 	position:absolute;
@@ -27,7 +28,7 @@
 }
 .banners .circle{
 	position:absolute;
-	top:290px;
+	bottom:20px;
 	right:130px;
 }
 .banners .circle .circle-item{

@@ -1,0 +1,64 @@
+.itemain{
+	padding: 20px 0;
+}
+.itemain .itemain-title{
+	color: #999;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.itemain .itemain-title a{
+	color:#666;
+}
+.itemain .itemain-title a:hover{
+	color:#E10482;
+	
+}
+
+.itemain .itemain-content .itemainCon-l .itemCon-l-img{
+	position:relative;
+	width:490px;
+	height:490px;
+	border-radius: 5px;
+	overflow: hidden;
+	border:1px solid #EFEFEF;
+	margin-bottom:10px;
+}
+.itemain .itemain-content .itemainCon-l .itemCon-l-img div .imgs{
+	position:absolute;
+	top:0;
+	left:0;
+	width:490px;
+}
+.itemain .itemain-content .itemainCon-l .itemCon-l-img .itemCon-l-store{
+	position:absolute;
+	bottom:20px;
+	right:40px;
+	font-size: 14px;
+}
+.itemain .itemain-content .itemainCon-l .itemCon-l-icons{
+	position: relative;
+	width:490px;
+	
+}
+.itemain .itemain-content .itemainCon-l .itemCon-l-icons .itemCon-l-icon{
+	width:60px;
+	height:60px;
+	border-radius: 5px;
+	overflow: hidden;
+	border:1px solid #EFEFEF;
+	float:left;
+	margin-right:5px;
+}
+.itemain .itemain-content .itemainCon-l .itemCon-l-icons .itemCon-l-icon .iconb{
+	width:60px;
+
+}
+.itemain .itemain-content .itemainCon-l .itemCon-l-icons .itemCon-l-share{
+	position:absolute;
+	bottom:15px;
+	right:0;
+	font-size: 14px;
+}
+.itemain .itemain-content .itemainCon-l .itemCon-l-icons .itemCon-l-share img{
+	margin-right:5px;
+}
