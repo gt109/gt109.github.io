@@ -1,5 +1,5 @@
 .itemain{
-	padding: 20px 0;
+	padding-top: 20px;
 }
 .itemain .itemain-title{
 	color: #999;
@@ -13,22 +13,56 @@
 	color:#E10482;
 	
 }
-
+.itemain .itemain-content{
+	padding-bottom:50px ;
+}
 .itemain .itemain-content .itemainCon-l .itemCon-l-img{
 	position:relative;
 	width:490px;
 	height:490px;
 	border-radius: 5px;
-	overflow: hidden;
+	-overflow: hidden;
 	border:1px solid #EFEFEF;
 	margin-bottom:10px;
 }
-.itemain .itemain-content .itemainCon-l .itemCon-l-img div .imgs{
+.itemain .itemain-content .itemainCon-l .itemCon-l-img .filter{
+	position:absolute;
+	z-index: 2;
+	top:0;
+	left:0;
+	background:url(../img/filter.png);
+	width:245px;
+	height:245px;
+	display: none;
+}
+
+.itemain .itemain-content .itemainCon-l .itemCon-l-img .pic .imgs{
 	position:absolute;
 	top:0;
 	left:0;
 	width:490px;
+	display: none;
 }
+.itemain .itemain-content .itemainCon-l .itemCon-l-img .big-pic{
+	position:absolute;
+	top:0;
+	left:490px;
+	z-index: 2;
+	width:490px;
+	height:490px;
+	overflow: hidden;
+	display:none;
+}
+.itemain .itemain-content .itemainCon-l .itemCon-l-img .big-pic .big-imgs{
+	position:absolute;
+	width:980px;
+	height:980px;
+	top:0;
+	left:0;
+	display: none;
+	z-index: 2;
+}
+
 .itemain .itemain-content .itemainCon-l .itemCon-l-img .itemCon-l-store{
 	position:absolute;
 	bottom:20px;
@@ -48,6 +82,10 @@
 	border:1px solid #EFEFEF;
 	float:left;
 	margin-right:5px;
+	cursor:pointer;
+}
+.itemain .itemain-content .itemainCon-l .itemCon-l-icons .itemCon-l-icon.bord{
+	border:1px solid #000;
 }
 .itemain .itemain-content .itemainCon-l .itemCon-l-icons .itemCon-l-icon .iconb{
 	width:60px;
@@ -61,4 +99,262 @@
 }
 .itemain .itemain-content .itemainCon-l .itemCon-l-icons .itemCon-l-share img{
 	margin-right:5px;
+}
+
+
+.itemain .itemain-content .itemainCon-r{
+	position: relative;
+	padding-top:5px;
+	width:463px;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-title .itemCon-r-ti{
+	width:410px;
+	font-size: 18px;
+	line-height: 30px;
+    text-overflow: ellipsis;
+	color:#333;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-title img{
+	width:36px;
+	position: absolute;
+    right: 0;
+    top: -5px;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-p{
+	line-height: 24px;
+    font-size: 16px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-price{
+	color:#E10485;
+	padding-top: 10px;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-price .itemCon-r-num{
+	font-size:30px;
+	line-height:38px;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-price2{
+	color: #999;
+    margin-bottom: 8px;
+    font-size:14px;
+} 
+.itemain .itemain-content .itemainCon-r .itemCon-r-price2 .itemCon-r-num2{
+	text-decoration: line-through;	
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-others{
+	margin-bottom:6px;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-others i{
+	display: inline-block;
+	background: #E10482;
+	color:#fff;
+	padding: 0 8px;
+    border-radius: 5px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-others u{
+	display: inline-block;
+	font-size: 14px;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-place{
+	font-size: 14px;
+	padding:15px 0;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-color{
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+    padding: 10px 0;
+    font-size: 14px;
+    color:#333;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-color dl{
+	padding-top: 10px;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-color dl dt{
+	float:left;
+	width: 70px;
+    color: #999;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-color dl dd{
+	padding: 0 0 5px 10px;
+	display: inline-block;
+	margin:0;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-color dl dd a{
+	float:left;
+	font-size: 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    height: 28px;
+    line-height: 28px;
+    background: #fff;
+    text-align: center;
+    color: #666;
+    cursor:pointer;
+    
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-color dl dd a:hover{
+	 border: 1px solid #E10485;
+	  color: #E10485;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-color dl dd.color a{
+	 border: 1px solid #E10485;
+	  color: #E10485;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-number{
+	padding:20px 0;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-number span{
+	color: #999;
+	width: 70px;
+	display: inline-block;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-number span.stock{
+	width:20px;
+	color:#666;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-number .itemCon-r-changenum{
+	width:110px;
+	line-height: 28px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	display: inline-block;
+	margin-right:20px;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-number .itemCon-r-changenum .itemCon-r-nub{
+	border-right:1px solid #CCC;
+	border-left:1px solid #CCC;
+	line-height: 28px;
+	width:48px;
+	display: inline-block;
+	text-align: center;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-number .itemCon-r-changenum .itemCon-r-increase,
+.itemain .itemain-content .itemainCon-r .itemCon-r-number .itemCon-r-changenum .itemCon-r-decrease{
+	width:28px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-btn .buy-goods-btn{
+	margin-right:15px;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-btn .buy-goods-btn:hover span{
+	opacity:0.8;
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-btn .buy-goods-btn span{
+	padding:0 25px;
+	width:115px;
+	line-height:50px;
+	border-radius: 50px;
+	color:#fff;
+	background: #000;
+	text-align: center;
+	display: inline-block;
+	font-size:18px;
+	
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-btn .add-cart-btn{
+}
+.itemain .itemain-content .itemainCon-r .itemCon-r-btn .add-cart-btn span{
+	padding:0 25px;
+	width:116px;
+	line-height:50px;
+	border-radius: 50px;
+	color:#fff;
+	background:#E10482;
+	text-align: center;
+	display: inline-block;
+	font-size:18px;
+}
+.itemain .itemain-product{
+	background:#F5F5F5;
+	padding:20px 0;
+	border-bottom:1px solid #ccc;
+}
+.itemain .itemain-product .itempro-l{
+	width:240px;
+	background:#fff;
+	min-height:830px;
+}
+.itemain .itemain-product .itempro-l dl{
+	border-bottom: 1px solid #eee;
+}
+.itemain .itemain-product .itempro-l dl dt{
+	font-weight: 700;
+	border-bottom: 2px solid #000;
+	font-size: 16px;
+    height: 36px;
+    line-height: 36px;
+    
+}
+.itemain .itemain-product .itempro-l dl dd{
+	padding:20px 0;
+	margin:0 20px;
+	border-top: 1px solid #eee;
+}
+.itemain .itemain-product .itempro-l dl dd .itempro-l-img img{
+	width:64px;
+}
+.itemain .itemain-product .itempro-l dl dd .itempro-l-con h3{
+	font-size:12px;
+	font-weight: 500;
+	width:125px;
+}
+.itemain .itemain-product .itempro-l dl dd .itempro-l-con span{
+	font-size: 14px;
+    color: #e10482;
+    margin-top:8px;
+    display: block;
+}
+
+.itemain .itemain-product .itempro-r{
+	width:722px;
+	background:#fff;
+}
+.itemain .itemain-product .itempro-r .itempro-r-title{
+	border-bottom: 2px solid #000;
+	font-size: 16px;
+    height: 36px;
+    line-height: 36px;
+    background:#F5F5F5;
+}
+.itemain .itemain-product .itempro-r .itempro-r-title .itempro-r-product{
+	cursor:pointer;
+	display: inline-block;
+    line-height: 33px;
+    margin-left:45px;
+}
+.itemain .itemain-product .itempro-r .itempro-r-title .itempro-r-product.bac{
+	border-bottom: 4px solid #E10482;
+	color:#E10482;
+}
+.itemain .itemain-product .itempro-r .itempro-r-title .itempro-r-product:hover{
+	border-bottom: 4px solid #E10482;
+	color:#E10482;
+}
+.itemain .itemain-product .itempro-r .itempro-r-con{
+	position:relative;
+	text-align: center;
+	width:722px;
+	min-height:100px;
+}
+.itemain .itemain-product .itempro-r .itempro-r-con .itempro-r-prodcon{
+	
+}
+.itemain .itemain-product .itempro-r .itempro-r-con .itempro-r-prodcon img{
+	max-width: 100%;
 }

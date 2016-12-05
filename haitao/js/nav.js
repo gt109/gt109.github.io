@@ -17,7 +17,7 @@ $(function(){
 	$('.nav-title-item').eq(0).addClass('enter')
 	$('.nav-title-item').children('span').eq(0).addClass('tri')
 	
-	$('.nav-title-item').hover(function(){
+	$('.nav-title-item').mouseenter(function(){
 		var index=$(this).index()
 		$('.sift-list').eq(index).show().siblings().hide()
 		$('.nav-title-item').eq(index).addClass('enter').siblings().removeClass('enter')

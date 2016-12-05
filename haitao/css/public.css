@@ -1,9 +1,6 @@
-html,
-body,
-div,
-p,ul,h3{
-	padding:0;
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{
 	margin:0;
+	padding:0;
 }
 -html,body{
 	width:100%;
@@ -15,7 +12,8 @@ li{
 	list-style: none;
 }
 a,u,del,s{
-	text-decoration:none;color:#000;
+	text-decoration:none;
+	color:#000;
 }
 a img{
 	border:0;
@@ -34,6 +32,7 @@ table{
 }
 input,textarea{
 	outline:none;
+	border:0;
 }
 
 .clear:after{
@@ -62,6 +61,11 @@ input,textarea{
 	position:relative;top:-2px;
 }
 
+.over{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
 .margin{
 	height:100%;
 	width:1190px;
