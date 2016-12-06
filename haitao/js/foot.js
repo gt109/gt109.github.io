@@ -1,11 +1,11 @@
 $(function(){
 	$('.user-connect').hover(function(){
-		$('.user-conn').stop(true).animate({
+		$('.user-conn').stop(true).show().animate({
 			left:-135,
 			opacity:1
 		},500)
 	},function(){
-		$('.user-conn').stop(true).animate({
+		$('.user-conn').stop(true).hide().animate({
 			left:-170,
 			opacity:0
 		},500)
@@ -21,13 +21,13 @@ $(function(){
 	
 	$('.user-store').hover(function(){
 		$(this).addClass('user-bac')
-		$('.user-store-img').stop(true).animate({
+		$('.user-store-img').stop(true).show().animate({
 			left:-91,
 			opacity:1
 		},500)
 	},function(){
 		$(this).removeClass('user-bac')
-		$('.user-store-img').stop(true).animate({
+		$('.user-store-img').stop(true).hide().animate({
 			left:-130,
 			opacity:0
 		},500)
@@ -35,13 +35,13 @@ $(function(){
 	
 	$('.user-sale').hover(function(){
 		$(this).addClass('user-bac')
-		$('.user-sale-img').stop(true).animate({
+		$('.user-sale-img').stop(true).show().animate({
 			left:-91,
 			opacity:1
 		},500)
 	},function(){
 		$(this).removeClass('user-bac')
-		$('.user-sale-img').stop(true).animate({
+		$('.user-sale-img').stop(true).hide().animate({
 			left:-130,
 			opacity:0
 		},500)
@@ -49,13 +49,13 @@ $(function(){
 	
 	$('.user-twoCode').hover(function(){
 		$(this).addClass('user-bac')
-		$('.user-twoCode-img').stop(true).animate({
+		$('.user-twoCode-img').stop(true).show().animate({
 			left:-100,
 			opacity:1
 		},500)
 	},function(){
 		$(this).removeClass('user-bac')
-		$('.user-twoCode-img').stop(true).animate({
+		$('.user-twoCode-img').stop(true).hide().animate({
 			left:-130,
 			opacity:0
 		},500)

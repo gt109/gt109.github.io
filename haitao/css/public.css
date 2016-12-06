@@ -60,6 +60,9 @@ input,textarea{
 .pl_2{
 	position:relative;top:-2px;
 }
+.pl_10{
+	position:relative;top:-10px;
+}
 
 .over{
 	overflow:hidden;

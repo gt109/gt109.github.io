@@ -25,6 +25,7 @@ $(function(){
 		bigImg:$('.big-imgs'),
 		icon:$('.itemCon-l-icon'),
 		filter:$('.filter'),
+		add_cart:$('.add-cart'),
 		init:function(){
 			this.show()
 			this.duiying()
@@ -75,9 +76,10 @@ $(function(){
 		decrease:$('.itemCon-r-decrease'),
 		num:$('.itemCon-r-nub'),
 		stock:$('.stock'),
+		add_cart:$('.add-cart'),
+		itemColor:$('.itemCon-r-color'),
 		init:function(){
 			this.getData()
-			
 		},
 		getData:function(){
 			var gid=this.main.attr('data-gid');
@@ -89,13 +91,14 @@ $(function(){
 				that.increasenum()
 				that.decreasenum()
 				that.inputnum()
+				that.addCart()
 			})
 		},
 		createColor:function(){
-			var color=this.data.color
+			var colors=this.data.color
 			var colorlist=""
-			for(var key in color){
-				colorlist+='<dd><a>'+color[key]+'</a></dd>'
+			for(var key in colors){
+				colorlist+='<dd data-color="'+key+'"><a>'+colors[key]+'</a></dd>'
 			}
 			$('.itemCon-r-color dl').append(colorlist)
 			$('.itemCon-r-color dl dd').eq(0).addClass('color')
@@ -133,8 +136,6 @@ $(function(){
 			this.num.on('input',function(){
 				var value=that.num.val()
 				var stock=that.stock.html()
-				console.log(stock)
-				console.log(value)
 				if(value==""){
 					return;
 				}
@@ -147,6 +148,7 @@ $(function(){
 					that.num.val(stock)
 					return;
 				}
+				that.num.val(value)
 			})
 			this.num.blur(function(){
 				var value = that.num.val();
@@ -154,14 +156,31 @@ $(function(){
 					that.num.val(1);
 				}
 			});
-		}
-		
-		
+		},
+		addCart:function(){
+			var that =this
+			this.add_cart.click(function(){
+				var gid=that.main.data('gid')
+				var colorId=that.itemColor.find('.color').data('color')
+				var amount=parseInt(that.num.val())
+				var cart = $.cookie('tb_cart')  || '{}'; 
+				cart = JSON.parse( cart );
+				if(!cart[colorId]){
+					cart[colorId]={
+						"good-id":gid,
+						"color-id":colorId,
+						"amount":amount
+					}
+				}else{
+					cart[colorId].amount+=amount
+				}
+				$.cookie('tb_cart',JSON.stringify(cart),{expires:365,path:'/'})
+				alert('成功加入购物车');
+				console.log( JSON.parse( $.cookie('tb_cart') ) );
+			})
+		}		
 	}
 	goods.init()
-	
-	
-	
 	
 	
 /*商品详情选项卡*/

@@ -111,6 +111,9 @@
 	line-height: 20px;
 	width:100%;
 }
+.header .hd-right .hd-search .hidBox{
+	margin-top:3px;
+}
 .header .hd-right .hd-search .hidBox .h-Keywords{
 	font-family:"微软雅黑";
 	font-size:12px;

@@ -85,6 +85,7 @@
 	background: url(../img/comm_bg_sprite.png) no-repeat 0 -535px;
 	padding-left:10px;
 	opacity:0;
+	display: none;
 }
 .usercenter .user-conn .user-conn-img{
 	background: url(../img/comm_bg_sprite.png) no-repeat -70px 0;
@@ -123,12 +124,13 @@
 	top:404px;
 	left:-130px;
 	width:96px;
-	line-height:32px;
-	background: url(../img/comm_bg_sprite.png) no-repeat 0 -369px;
+	line-height:33px;
+	background: url(../img/comm_bg_sprite.png) no-repeat 0 -370px;
 	text-align: center;
 	color:#E10482;
 	font-size: 14px;
 	opacity:0;
+	display: none;
 }
 
 .usercenter .user-top .user-sale{
@@ -143,13 +145,13 @@
 	top:445px;
 	left:-130px;
 	width:96px;
-	line-height:32px;
-	display: inline-block;
-	background: url(../img/comm_bg_sprite.png) no-repeat 0 -369px;
+	line-height:33px;
+	background: url(../img/comm_bg_sprite.png) no-repeat 0 -370px;
 	text-align: center;
 	color:#E10482;
 	font-size: 14px;
 	opacity:0;
+	display: none;
 }
 
 .usercenter .user-top li.user-bac{
@@ -168,13 +170,13 @@
 	bottom:45px;
 	left:-130px;
 	width:104px;
-	height:126px;
-	display: inline-block;
-	background: url(../img/comm_bg_sprite.png) no-repeat 0 -405px;
+	height:127px;
+	background: url(../img/comm_bg_sprite.png) no-repeat 0 -404px;
 	text-align: center;
 	font-size:12px;
 	padding-top:4px;
 	opacity:0;
+	display: none;
 }
 .usercenter .user-twoCode-img img{
 	width:94px;
@@ -190,3 +192,5 @@
 .usercenter .user-bottom li.user-bac{
 	background-position-x: -35px;
 }
+
+
