@@ -101,6 +101,7 @@
 	background:url(../img/comm_bg_sprite.png) no-repeat 0 -121px;
 	height:121px;
 	margin-top:2px;
+	display: block;
 }
 
 .usercenter .user-top .user-goods .count{
@@ -193,4 +194,7 @@
 	background-position-x: -35px;
 }
 
+.usercenter .user-top li .user-bac{
+	background-position-x: -35px;
+}
 

@@ -66,20 +66,19 @@ $(function(){
 	},function(){
 		$(this).removeClass('user-bac')
 	})
-	
-	$('.user-backTop').click(function(){
-		var scrollTop=document.body.scrollTop||document.documentElement.scrollTop;
-		var timer=setInterval(function(){
-			scrollTop-=5;
-			if(scrollTop<=0){
-				clearInterval(timer);
-				body=2000;	
-			}
-			document.body.scrollTop=scrollTop+"px";
-			document.documentElement.scrollTop=scrollTop+"px";
-		},10)
-	
-	})
+//回到顶部	
+	$('.user-backTop').click(function(){		
+		$('html,body').animate({scrollTop:0},300);
+	});
 	
 	
-})
+/*购物袋商品数量*/	
+		var cart = $.cookie('tb_cart') || '{}';
+		cart = JSON.parse( cart );
+		var amount=0;
+		for(var key in cart){
+			amount++
+		}
+		$('.count').html(amount)
+});
+

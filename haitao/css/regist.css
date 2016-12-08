@@ -45,17 +45,24 @@
 .login-main .login-box{
 	padding:30px 0;
 }
-.login-main .login-box .login-td .control-group{
+.login-main .login-box .login-td .regist-one .control-group{
 	position:relative;
 	font-size: 14px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	line-height:46px;
+	margin-bottom: 30px;
 }
-.login-main .login-box .login-td .control-group.first{
+.login-main .login-box .login-td .regist-one .control-group.border{
+	border: 2px solid #666;
+}
+.login-main .login-box .login-td .regist-one .control-group.red{
+	border: 2px solid #E10482;
+}
+.login-main .login-box .login-td .regist-one .control-group.first{
 	margin-top:30px;
 }
-.login-main .login-box .login-td .control-group .control-label{
+.login-main .login-box .login-td .regist-one .control-group .control-label{
 	display: inline-block;
 	text-align: center;
 	background: #F5F5F5;
@@ -65,7 +72,9 @@
     border-right: 1px solid #ccc;
     color: #666;
 }
-.login-main .login-box .login-td .control-group .userphone{
+.login-main .login-box .login-td .regist-one .control-group .userphone,
+.login-main .login-box .login-td .regist-one .control-group .check-code,
+.login-main .login-box .login-td .regist-one .control-group .check-message{
 	width: 228px;
     height: 46px;
     line-height: 46px;
@@ -74,22 +83,31 @@
     color: #bbb;
     font-family: Microsoft YaHei;
 }
-.login-main .login-box .login-td .control-group .code{
+.login-main .login-box .login-td .regist-one .control-group .code2{
+	position:absolute;
+	right:10px;
+	top:0;
+	color:#666;
+}
+.login-main .login-box .login-td .regist-one .control-group .code{
 	position:absolute;
 	right:10px;
 	top:0;
 	color:#E10482;
 }
-.login-main .login-box .login-td .error{
+.login-main .login-box .login-td .regist-one .control-group .error{
+	position:absolute;
+	top:45px;
+	left:0;
 	white-space: nowrap;
     height: 28px;
     line-height: 28px;
     color: #e10482;
     font-size: 12px;
-    display:inline-block;
+    display:none;
 	width:100%;
 }
-.login-main .login-box .login-td .control_btn .control-btn{
+.login-main .login-box .login-td .regist-one .control_btn .control-btn{
 	width:108px;
 	line-height:40px;
 	border-radius: 40px;
@@ -99,6 +117,115 @@
 	margin-top:25px;
 	margin-left:80px;
 }
+.login-main .login-box .login-td .regist-one .control_btn div.next{
+	background: #E10482;
+}
+
+.login-main .login-box .login-td .regist-two{
+	display: none;
+}
+.login-main .login-box .login-td .regist-two .control-groups{
+	position:relative;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	height:93px;
+	margin-bottom: 30px;
+}
+.login-main .login-box .login-td .regist-two .control-group{
+	position:relative;
+	font-size: 14px;
+	line-height:46px;
+	margin-bottom: 30px;
+}
+.login-main .login-box .login-td .regist-two .control-group.first.border{
+	border: 2px solid #666;
+}
+.login-main .login-box .login-td .regist-two .control-group.first.red{
+	border: 2px solid #E10482;
+}
+.login-main .login-box .login-td .regist-two .control-group.first{
+	margin-top:30px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+.login-main .login-box .login-td .regist-two .control-groups.border{
+	border: 2px solid #666;
+}
+.login-main .login-box .login-td .regist-two .control-groups.red{
+	border: 2px solid #E10482;
+}
+
+.login-main .login-box .login-td .regist-two .control-group.second{
+	margin-bottom:0px;
+	border-bottom: 1px solid #ccc;
+}
+.login-main .login-box .login-td .regist-two .control-group .control-label{
+	display: inline-block;
+	text-align: center;
+	background: #F5F5F5;
+    width: 78px;
+    line-height: 46px;
+    background: #f5f5f5;
+    border-right: 1px solid #ccc;
+    color: #666;
+}
+.login-main .login-box .login-td .regist-two .control-group .username,
+.login-main .login-box .login-td .regist-two .control-group .password,
+.login-main .login-box .login-td .regist-two .control-group .check-password{
+	width: 228px;
+    height: 46px;
+    line-height: 46px;
+    margin-left: 10px;
+    margin-right:20px;
+    color: #bbb;
+    font-family: Microsoft YaHei;
+}
+.login-main .login-box .login-td .regist-two .control-group .code{
+	position:absolute;
+	right:10px;
+	top:0;
+	color:#E10482;
+}
+.login-main .login-box .login-td .regist-two .control-group .error{
+	position:absolute;
+	top:45px;
+	left:0;
+	white-space: nowrap;
+    height: 28px;
+    line-height: 28px;
+    color: #e10482;
+    font-size: 12px;
+    display:none;
+	width:100%;
+}
+
+.login-main .login-box .login-td .regist-two .controlBtn .control-btn{
+	width:158px;
+	line-height:40px;
+	border-radius: 40px;
+	background:#E3138D;
+	text-align: center;
+	color: #fff;
+	margin-top:25px;
+	margin-left:90px;
+}
+.login-main .login-box .login-td .regist-two .controlBtn .control-btn:hover{
+	background:#E10482;
+}
+.login-main .login-box .login-td .regist-two .controlBtn .next{
+	background: #E10482;
+}
+.login-main .login-box .login-td .regist-two .control-cho{
+	font-size: 14px;
+	color:#666;
+}
+.login-main .login-box .login-td .regist-two .control-cho a{
+	color:#3b99fd;
+}
+.login-main .login-box .login-td .regist-two .control-cho a:hover{
+	text-decoration: underline;
+}
+
 .foots .foot-nav .margin3{
 	width:990px;
 	margin:0 auto;

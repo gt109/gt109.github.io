@@ -68,6 +68,23 @@ $(function(){
 		}	
 	}
 	glass.init()
+	var status=false
+	$('.itemCon-l-heart').click(function(){
+		var amount=$('.itemCon-l-count').html()
+		if(!status){
+			amount++
+			$('.itemCon-l-count').html(amount)
+			$(this).attr({src:"img/1481199512(1).png"})
+			status=true
+		}else{
+			amount--
+			$('.itemCon-l-count').html(amount)
+			$(this).attr({src:"img/1480690776(1).png"})
+			status=false
+		}
+		
+		
+	})
 
 /*商品加入购物车*/
 	var goods={
@@ -157,13 +174,23 @@ $(function(){
 				}
 			});
 		},
+		add:function(){
+			var cart = $.cookie('tb_cart') || '{}';
+			cart = JSON.parse( cart );
+			var amount=0;
+			for(var key in cart){
+				amount++
+			}
+			$('.count').html(amount)
+		},
 		addCart:function(){
 			var that =this
 			this.add_cart.click(function(){
 				var gid=that.main.data('gid')
 				var colorId=that.itemColor.find('.color').data('color')
 				var amount=parseInt(that.num.val())
-				var cart = $.cookie('tb_cart')  || '{}'; 
+				var cart = $.cookie('tb_cart')  || '{}';
+				console.log(cart)
 				cart = JSON.parse( cart );
 				if(!cart[colorId]){
 					cart[colorId]={
@@ -176,6 +203,7 @@ $(function(){
 				}
 				$.cookie('tb_cart',JSON.stringify(cart),{expires:365,path:'/'})
 				alert('成功加入购物车');
+				that.add()
 				console.log( JSON.parse( $.cookie('tb_cart') ) );
 			})
 		}		

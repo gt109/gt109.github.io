@@ -1,0 +1,111 @@
+.td-checkbox{
+	width:40px;
+	text-align: center;
+	padding:55px 0;
+}
+.td-inner{
+	padding:15px 0;
+}
+.td-inner .goods-img {
+	float: left;
+	width: 100px;
+	height: 100px;
+	border:1px solid #ccc;
+	margin-right: 20px;
+}
+.td-gname .goods-img img{
+	width: 100px;
+	height: 100px;
+	
+}
+.td-gname .goods-name {
+	padding-right: 20px;
+	width:260px;
+	color: #000;
+    height: 28px;
+    line-height: 14px;
+    margin-bottom: 5px;
+    display: block;
+    overflow: hidden;
+    text-align: left;
+    font-size: 12px;
+} 
+.td-gname .goods-name a:hover{
+	text-decoration: underline;
+	color:#E10482;
+}
+.td-gname .gstyle{
+	color: #999;
+    white-space: nowrap;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+}
+.td-gname .gcolor{
+	color: #999;
+    white-space: nowrap;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+}
+
+.td-gprice{
+	width:145px;
+	text-align:right;
+	color:#666;
+	padding:55px 0;
+}
+.td-gamount{
+	width:123px;
+	padding:55px 0 55px 75px;
+}
+.td-amount-wrapper {
+	width: 77px;
+	height: 25px;
+	border: 1px solid #eee;
+}
+.td-amount-wrapper .amount-option {
+	width: 17px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: #000;
+}
+.td-amount-wrapper .amount-decrease {
+	display: inline-block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    color: #999;
+    cursor: pointer;
+}
+.td-amount-wrapper .amount-input{
+	width: 30px;
+    border: 0;
+    padding: 0;
+    float: left;
+    background: 0;
+    text-align: center;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+.td-amount-wrapper .amount-increase {
+	display: inline-block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    color: #999;
+    cursor: pointer;
+}
+.td-amount-wrapper span:hover {
+	color: #000;
+}
+.td-gmoney {
+	color: #E10482;
+	font-weight: 700;
+	width:140px;
+	padding:55px 0;
+}
+.td-option{
+	padding:55px 0;
+}

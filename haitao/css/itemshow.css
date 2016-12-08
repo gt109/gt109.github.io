@@ -65,9 +65,10 @@
 
 .itemain .itemain-content .itemainCon-l .itemCon-l-img .itemCon-l-store{
 	position:absolute;
-	bottom:20px;
+	bottom:-30px;
 	right:40px;
 	font-size: 14px;
+	z-index: 4;
 }
 .itemain .itemain-content .itemainCon-l .itemCon-l-icons{
 	position: relative;
