@@ -63,9 +63,9 @@
 	z-index: 2;
 }
 
-.itemain .itemain-content .itemainCon-l .itemCon-l-img .itemCon-l-store{
+.itemain .itemain-content .itemainCon-l .itemCon-l-icons .itemCon-l-store{
 	position:absolute;
-	bottom:-30px;
+	bottom:40px;
 	right:40px;
 	font-size: 14px;
 	z-index: 4;
